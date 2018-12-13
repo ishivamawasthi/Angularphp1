@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+  <tr>
+    <th class="text-center">id</th>
+    <th class="text-center">Name</th>
+    <th class="text-center">Mobile</th>
+    <th class="text-center">Email</th>
+    <th class="text-center">Age</th>
+  </tr>
+  <tr *ngFor="let row of myuser">
+    <td class='text-center'>{{row.id}}</td>
+    <td class='text-center'>{{row.name}}</td>
+    <td class='text-center'>{{row.mobile}}</td>
+    <td class='text-center'>{{row.email}}</td>
+    <td class='text-center'>{{row.age}}</td>
+  </tr>
+</table>
